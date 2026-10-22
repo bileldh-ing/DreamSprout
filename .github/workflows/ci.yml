@@ -38,7 +38,7 @@ jobs:
           git diff --exit-code -- supabase/seed.sql apps/mobile/src/content/assets.generated.ts
       - name: Unit tests with coverage
         run: npm run test:coverage
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         if: always()
         with:
           name: coverage
@@ -66,7 +66,7 @@ jobs:
         run: npx expo export -p web --output-dir dist
         env:
           CI: 1
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: mobile-web-dist
           path: apps/mobile/dist
