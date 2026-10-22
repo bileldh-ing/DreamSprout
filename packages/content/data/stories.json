@@ -1,0 +1,1221 @@
+[
+ {
+  "id": "tortoise-hare",
+  "title": "The Tortoise and the Hare",
+  "origin": "Aesop's Fables",
+  "source": "Aesop's Fables (public domain), retold by DreamSprout",
+  "license": {
+   "kind": "public-domain",
+   "name": "Public domain (source text)",
+   "holder": "Public domain",
+   "notes": "Traditional tale from Aesop's Fables; the source is in the public domain. This retelling is © DreamSprout."
+  },
+  "ageBand": "4-6",
+  "minutes": 3,
+  "tags": [
+   "Animals",
+   "Fables"
+  ],
+  "moral": "Slow and steady wins the race.",
+  "synopsis": "A boastful hare challenges a quiet tortoise to a race, and learns that patience beats speed.",
+  "characters": "a small friendly green tortoise with a mossy shell and a proud fluffy brown hare with long ears",
+  "language": "en",
+  "status": "published",
+  "illustration": {
+   "credit": "Illustrations generated for DreamSprout (AI-assisted, editor reviewed)",
+   "kind": "static"
+  },
+  "narration": {
+   "credit": "Narration synthesised for DreamSprout with Microsoft Edge neural TTS (voice en-US-AnaNeural)",
+   "voice": "en-US-AnaNeural",
+   "kind": "tts"
+  },
+  "pages": [
+   {
+    "index": 1,
+    "text": "Once upon a time, in a green meadow, lived a hare who was very proud of how fast he could run. \"Nobody can beat me!\" he laughed. A quiet tortoise smiled and said, \"I will race you.\" The hare giggled so hard his ears wobbled.",
+    "sceneDescription": "the hare laughing proudly at the tortoise on a sunny flower meadow, other animals watching",
+    "image": "img/tortoise-hare-1.webp",
+    "audio": "audio/tortoise-hare-1.mp3",
+    "audioDurationSec": 21.081,
+    "timingKey": "tortoise-hare-1"
+   },
+   {
+    "index": 2,
+    "text": "The race began, and the hare zoomed away in a cloud of dust. Soon he could not even see the tortoise behind him. \"I have plenty of time,\" he yawned, and he curled up for a nap under a shady oak tree.",
+    "sceneDescription": "the hare asleep curled up under a big oak tree in warm afternoon light, butterflies around",
+    "image": "img/tortoise-hare-2.webp",
+    "audio": "audio/tortoise-hare-2.mp3",
+    "audioDurationSec": 17.92,
+    "timingKey": "tortoise-hare-2"
+   },
+   {
+    "index": 3,
+    "text": "Step by step, the tortoise kept walking. He did not stop, and he did not hurry. When the hare finally woke, the tortoise was already crossing the finish line, and all the animals cheered. Slow and steady wins the race.",
+    "sceneDescription": "the tortoise crossing a ribbon finish line at golden sunset while forest animals cheer, the hare running far behind",
+    "image": "img/tortoise-hare-3.webp",
+    "audio": "audio/tortoise-hare-3.mp3",
+    "audioDurationSec": 20.872,
+    "timingKey": "tortoise-hare-3"
+   }
+  ]
+ },
+ {
+  "id": "lion-mouse",
+  "title": "The Lion and the Mouse",
+  "origin": "Aesop's Fables",
+  "source": "Aesop's Fables (public domain), retold by DreamSprout",
+  "license": {
+   "kind": "public-domain",
+   "name": "Public domain (source text)",
+   "holder": "Public domain",
+   "notes": "Traditional tale from Aesop's Fables; the source is in the public domain. This retelling is © DreamSprout."
+  },
+  "ageBand": "3-5",
+  "minutes": 3,
+  "tags": [
+   "Animals",
+   "Kindness",
+   "Fables"
+  ],
+  "moral": "No act of kindness is ever too small.",
+  "synopsis": "A mighty lion spares a tiny mouse, and one moonlit night she repays him.",
+  "characters": "a big gentle golden lion with a fluffy mane and a tiny grey mouse with pink ears",
+  "language": "en",
+  "status": "published",
+  "illustration": {
+   "credit": "Illustrations generated for DreamSprout (AI-assisted, editor reviewed)",
+   "kind": "static"
+  },
+  "narration": {
+   "credit": "Narration synthesised for DreamSprout with Microsoft Edge neural TTS (voice en-US-AnaNeural)",
+   "voice": "en-US-AnaNeural",
+   "kind": "tts"
+  },
+  "pages": [
+   {
+    "index": 1,
+    "text": "One warm night, a big lion was sleeping in the forest. A tiny mouse scampered across his paw by mistake, and the lion woke with a great rumble. \"Please let me go,\" squeaked the mouse. \"One day I might help you.\" The lion chuckled, and lifted his paw.",
+    "sceneDescription": "the lion looking down curiously at the tiny mouse sitting on his paw in a moonlit jungle clearing",
+    "image": "img/lion-mouse-1.webp",
+    "audio": "audio/lion-mouse-1.mp3",
+    "audioDurationSec": 23.928,
+    "timingKey": "lion-mouse-1"
+   },
+   {
+    "index": 2,
+    "text": "A few days later, the lion was caught in a hunter's rope net. He pulled and he roared, but the ropes only grew tighter and tighter. His roar echoed through the dark trees.",
+    "sceneDescription": "the lion tangled in a rope net hanging between trees in a dark blue night forest, fireflies",
+    "image": "img/lion-mouse-2.webp",
+    "audio": "audio/lion-mouse-2.mp3",
+    "audioDurationSec": 15.438,
+    "timingKey": "lion-mouse-2"
+   },
+   {
+    "index": 3,
+    "text": "The little mouse heard him. She nibbled, and nibbled, and nibbled, until the ropes snapped and the lion was free. \"Thank you, little friend,\" he said softly. From that night on they were the best of friends. No act of kindness is ever too small.",
+    "sceneDescription": "the mouse sitting happily on the freed lion's nose under a big glowing moon, cozy and warm",
+    "image": "img/lion-mouse-3.webp",
+    "audio": "audio/lion-mouse-3.mp3",
+    "audioDurationSec": 23.432,
+    "timingKey": "lion-mouse-3"
+   }
+  ]
+ },
+ {
+  "id": "crow-pitcher",
+  "title": "The Crow and the Pitcher",
+  "origin": "Aesop's Fables",
+  "source": "Aesop's Fables (public domain), retold by DreamSprout",
+  "license": {
+   "kind": "public-domain",
+   "name": "Public domain (source text)",
+   "holder": "Public domain",
+   "notes": "Traditional tale from Aesop's Fables; the source is in the public domain. This retelling is © DreamSprout."
+  },
+  "ageBand": "6-8",
+  "minutes": 2,
+  "tags": [
+   "Animals",
+   "Fables"
+  ],
+  "moral": "Little by little does the trick.",
+  "synopsis": "A thirsty crow solves a tricky problem with patience and clever thinking.",
+  "characters": "a clever glossy black crow with bright curious eyes",
+  "language": "en",
+  "status": "published",
+  "illustration": {
+   "credit": "Illustrations generated for DreamSprout (AI-assisted, editor reviewed)",
+   "kind": "static"
+  },
+  "narration": {
+   "credit": "Narration synthesised for DreamSprout with Microsoft Edge neural TTS (voice en-US-AnaNeural)",
+   "voice": "en-US-AnaNeural",
+   "kind": "tts"
+  },
+  "pages": [
+   {
+    "index": 1,
+    "text": "On a hot, dry day, a thirsty crow flew over the fields looking for water. At last she spotted a tall clay pitcher in a garden. She peeked inside. There was water at the bottom, but her beak could not reach it.",
+    "sceneDescription": "the crow peering into a tall terracotta pitcher in a sunny Mediterranean garden",
+    "image": "img/crow-pitcher-1.webp",
+    "audio": "audio/crow-pitcher-1.mp3",
+    "audioDurationSec": 19.775,
+    "timingKey": "crow-pitcher-1"
+   },
+   {
+    "index": 2,
+    "text": "The crow thought and thought. Then she picked up a small pebble and dropped it in. Plop! Then another. Plop! And another. Plop!",
+    "sceneDescription": "the crow holding a pebble in her beak above the pitcher, a pile of smooth pebbles nearby",
+    "image": "img/crow-pitcher-2.webp",
+    "audio": "audio/crow-pitcher-2.mp3",
+    "audioDurationSec": 15.83,
+    "timingKey": "crow-pitcher-2"
+   },
+   {
+    "index": 3,
+    "text": "With every pebble, the water rose a little higher, until at last it reached the top. The clever crow drank and drank, and then she sang a happy song. Little by little does the trick.",
+    "sceneDescription": "the happy crow drinking from the brim of the pitcher, water sparkling, sunflowers behind",
+    "image": "img/crow-pitcher-3.webp",
+    "audio": "audio/crow-pitcher-3.mp3",
+    "audioDurationSec": 16.457,
+    "timingKey": "crow-pitcher-3"
+   }
+  ]
+ },
+ {
+  "id": "luna-firefly",
+  "title": "Luna the Little Firefly",
+  "origin": "DreamSprout",
+  "source": "DreamSprout Original",
+  "license": {
+   "kind": "original",
+   "name": "DreamSprout Original",
+   "holder": "DreamSprout",
+   "notes": "Original story written for DreamSprout. All rights reserved."
+  },
+  "ageBand": "3-5",
+  "minutes": 3,
+  "tags": [
+   "Calm",
+   "Bedtime"
+  ],
+  "moral": "Even a small light can make the night feel brave.",
+  "synopsis": "The smallest firefly in the garden helps a little girl who is afraid of the dark.",
+  "characters": "a tiny cute firefly with a soft glowing yellow tail and big eyes, and a little girl with curly dark hair in pajamas",
+  "language": "en",
+  "status": "published",
+  "illustration": {
+   "credit": "Illustrations generated for DreamSprout (AI-assisted, editor reviewed)",
+   "kind": "static"
+  },
+  "narration": {
+   "credit": "Narration synthesised for DreamSprout with Microsoft Edge neural TTS (voice en-US-AnaNeural)",
+   "voice": "en-US-AnaNeural",
+   "kind": "tts"
+  },
+  "pages": [
+   {
+    "index": 1,
+    "text": "Luna was the smallest firefly in the garden, and her light was the softest of all. One night she floated by a window, where a little girl lay awake. \"I don't like the dark,\" the girl whispered to her teddy bear.",
+    "sceneDescription": "the little firefly floating outside a bedroom window at night, the girl in bed hugging a teddy bear inside",
+    "image": "img/luna-firefly-1.webp",
+    "audio": "audio/luna-firefly-1.mp3",
+    "audioDurationSec": 18.26,
+    "timingKey": "luna-firefly-1"
+   },
+   {
+    "index": 2,
+    "text": "Luna glowed as brightly as she could and danced across the glass. The little girl sat up and smiled. \"A firefly!\" Luna drew slow, sleepy circles of light, round and round, like a lullaby.",
+    "sceneDescription": "the firefly drawing glowing circles of light in the dark bedroom while the girl watches with wonder",
+    "image": "img/luna-firefly-2.webp",
+    "audio": "audio/luna-firefly-2.mp3",
+    "audioDurationSec": 18.965,
+    "timingKey": "luna-firefly-2"
+   },
+   {
+    "index": 3,
+    "text": "The girl's eyes grew heavy, and her breathing grew slow. \"Goodnight, little light,\" she yawned. Luna glowed softly until she was fast asleep. Even a small light can make the night feel brave.",
+    "sceneDescription": "the girl fast asleep smiling while the firefly glows softly on the windowsill, moon and stars outside",
+    "image": "img/luna-firefly-3.webp",
+    "audio": "audio/luna-firefly-3.mp3",
+    "audioDurationSec": 18.233,
+    "timingKey": "luna-firefly-3"
+   }
+  ]
+ },
+ {
+  "id": "ugly-duckling",
+  "title": "The Ugly Duckling",
+  "origin": "Hans Christian Andersen",
+  "source": "Hans Christian Andersen (public domain), retold by DreamSprout",
+  "license": {
+   "kind": "public-domain",
+   "name": "Public domain (source text)",
+   "holder": "Public domain",
+   "notes": "Traditional tale from Hans Christian Andersen; the source is in the public domain. This retelling is © DreamSprout."
+  },
+  "ageBand": "4-6",
+  "minutes": 3,
+  "tags": [
+   "Animals",
+   "Kindness"
+  ],
+  "moral": "Everyone grows into who they are meant to be.",
+  "synopsis": "A grey duckling who never fits in discovers he was a swan all along.",
+  "characters": "a fluffy grey awkward duckling who grows into a graceful white swan",
+  "language": "en",
+  "status": "published",
+  "illustration": {
+   "credit": "Illustrations generated for DreamSprout (AI-assisted, editor reviewed)",
+   "kind": "static"
+  },
+  "narration": {
+   "credit": "Narration synthesised for DreamSprout with Microsoft Edge neural TTS (voice en-US-AnaNeural)",
+   "voice": "en-US-AnaNeural",
+   "kind": "tts"
+  },
+  "pages": [
+   {
+    "index": 1,
+    "text": "On a farm by the pond, a mother duck's eggs hatched one by one. The last duckling was big and grey and fluffy, not like the others at all. \"What an odd little duck,\" the farm animals whispered, and the duckling felt very alone.",
+    "sceneDescription": "the grey duckling standing apart from small yellow ducklings by a farm pond, looking sad",
+    "image": "img/ugly-duckling-1.webp",
+    "audio": "audio/ugly-duckling-1.mp3",
+    "audioDurationSec": 19.905,
+    "timingKey": "ugly-duckling-1"
+   },
+   {
+    "index": 2,
+    "text": "So the duckling wandered far away. Through the cold winter he hid among the reeds, watching the snow fall and dreaming of somewhere he belonged.",
+    "sceneDescription": "the grey duckling sheltering among frosty reeds on a frozen lake under falling snow at blue dusk",
+    "image": "img/ugly-duckling-2.webp",
+    "audio": "audio/ugly-duckling-2.mp3",
+    "audioDurationSec": 12.042,
+    "timingKey": "ugly-duckling-2"
+   },
+   {
+    "index": 3,
+    "text": "When spring came, he saw his reflection in the lake. He had grown into a beautiful white swan! Other swans glided over and welcomed him home. Everyone grows into who they are meant to be.",
+    "sceneDescription": "a beautiful white swan seeing its reflection on a spring lake, other swans swimming toward it, cherry blossoms",
+    "image": "img/ugly-duckling-3.webp",
+    "audio": "audio/ugly-duckling-3.mp3",
+    "audioDurationSec": 18.077,
+    "timingKey": "ugly-duckling-3"
+   }
+  ]
+ },
+ {
+  "id": "goldilocks",
+  "title": "Goldilocks and the Three Bears",
+  "origin": "English folk tale",
+  "source": "English folk tale (public domain), retold by DreamSprout",
+  "license": {
+   "kind": "public-domain",
+   "name": "Public domain (source text)",
+   "holder": "Public domain",
+   "notes": "Traditional tale from English folk tale; the source is in the public domain. This retelling is © DreamSprout."
+  },
+  "ageBand": "3-5",
+  "minutes": 3,
+  "tags": [
+   "Adventure",
+   "Animals"
+  ],
+  "moral": "Always ask before you take.",
+  "synopsis": "A curious girl wanders into the cozy cottage of three bears.",
+  "characters": "a curious little girl with golden curls in a red dress, and a family of three friendly brown bears",
+  "language": "en",
+  "status": "published",
+  "illustration": {
+   "credit": "Illustrations generated for DreamSprout (AI-assisted, editor reviewed)",
+   "kind": "static"
+  },
+  "narration": {
+   "credit": "Narration synthesised for DreamSprout with Microsoft Edge neural TTS (voice en-US-AnaNeural)",
+   "voice": "en-US-AnaNeural",
+   "kind": "tts"
+  },
+  "pages": [
+   {
+    "index": 1,
+    "text": "Deep in the woods stood a cottage where three bears lived. While their porridge cooled, they went for a walk. Along came Goldilocks. She tasted three bowls of porridge. One was too hot, one too cold, and one just right, so she ate it all up.",
+    "sceneDescription": "the girl tasting porridge from three wooden bowls at a table in a cozy woodland cottage kitchen",
+    "image": "img/goldilocks-1.webp",
+    "audio": "audio/goldilocks-1.mp3",
+    "audioDurationSec": 23.876,
+    "timingKey": "goldilocks-1"
+   },
+   {
+    "index": 2,
+    "text": "Then she tried three chairs, and the little one broke. Upstairs she tried three beds. The smallest bed was just right, and she fell fast asleep.",
+    "sceneDescription": "the girl asleep in a small wooden bed with a patchwork quilt in an attic bedroom, warm light",
+    "image": "img/goldilocks-2.webp",
+    "audio": "audio/goldilocks-2.mp3",
+    "audioDurationSec": 14.315,
+    "timingKey": "goldilocks-2"
+   },
+   {
+    "index": 3,
+    "text": "The three bears came home. \"Someone's been sleeping in my bed,\" cried Baby Bear, \"and she's still here!\" Goldilocks woke up, said sorry, and ran all the way home. Always ask before you take.",
+    "sceneDescription": "the three bears peeking into the bedroom surprised at the waking girl, playful and gentle",
+    "image": "img/goldilocks-3.webp",
+    "audio": "audio/goldilocks-3.mp3",
+    "audioDurationSec": 19.174,
+    "timingKey": "goldilocks-3"
+   }
+  ]
+ },
+ {
+  "id": "three-pigs",
+  "title": "The Three Little Pigs",
+  "origin": "English folk tale",
+  "source": "English folk tale (public domain), retold by DreamSprout",
+  "license": {
+   "kind": "public-domain",
+   "name": "Public domain (source text)",
+   "holder": "Public domain",
+   "notes": "Traditional tale from English folk tale; the source is in the public domain. This retelling is © DreamSprout."
+  },
+  "ageBand": "3-5",
+  "minutes": 3,
+  "tags": [
+   "Animals",
+   "Adventure"
+  ],
+  "moral": "Hard work keeps you safe.",
+  "synopsis": "Three pig brothers build three houses, and only one is strong enough for the wolf.",
+  "characters": "three cute little pigs in overalls and a silly grey wolf",
+  "language": "en",
+  "status": "published",
+  "illustration": {
+   "credit": "Illustrations generated for DreamSprout (AI-assisted, editor reviewed)",
+   "kind": "static"
+  },
+  "narration": {
+   "credit": "Narration synthesised for DreamSprout with Microsoft Edge neural TTS (voice en-US-AnaNeural)",
+   "voice": "en-US-AnaNeural",
+   "kind": "tts"
+  },
+  "pages": [
+   {
+    "index": 1,
+    "text": "Three little pigs set off to build their own houses. The first built a house of straw. The second built a house of sticks. The third worked all day to build a strong house of bricks.",
+    "sceneDescription": "three little pigs building houses of straw, sticks and bricks side by side on a sunny hill",
+    "image": "img/three-pigs-1.webp",
+    "audio": "audio/three-pigs-1.mp3",
+    "audioDurationSec": 17.084,
+    "timingKey": "three-pigs-1"
+   },
+   {
+    "index": 2,
+    "text": "Along came a hungry wolf. He huffed and he puffed and blew the straw house down! Then he blew the stick house down! The two little pigs ran to their brother's brick house.",
+    "sceneDescription": "the wolf blowing hard with puffed cheeks as straw flies everywhere and two pigs run away",
+    "image": "img/three-pigs-2.webp",
+    "audio": "audio/three-pigs-2.mp3",
+    "audioDurationSec": 16.144,
+    "timingKey": "three-pigs-2"
+   },
+   {
+    "index": 3,
+    "text": "The wolf huffed and puffed, but the brick house did not move. He gave up and slunk away, and the three pigs danced by a warm fire. Hard work keeps you safe.",
+    "sceneDescription": "three happy pigs dancing by a cozy fireplace inside a brick house at night",
+    "image": "img/three-pigs-3.webp",
+    "audio": "audio/three-pigs-3.mp3",
+    "audioDurationSec": 14.785,
+    "timingKey": "three-pigs-3"
+   }
+  ]
+ },
+ {
+  "id": "boy-cried-wolf",
+  "title": "The Boy Who Cried Wolf",
+  "origin": "Aesop's Fables",
+  "source": "Aesop's Fables (public domain), retold by DreamSprout",
+  "license": {
+   "kind": "public-domain",
+   "name": "Public domain (source text)",
+   "holder": "Public domain",
+   "notes": "Traditional tale from Aesop's Fables; the source is in the public domain. This retelling is © DreamSprout."
+  },
+  "ageBand": "6-8",
+  "minutes": 2,
+  "tags": [
+   "Fables"
+  ],
+  "moral": "Tell the truth, so people believe you.",
+  "synopsis": "A bored shepherd boy plays a trick one too many times.",
+  "characters": "a young shepherd boy with a straw hat and a flock of fluffy white sheep",
+  "language": "en",
+  "status": "published",
+  "illustration": {
+   "credit": "Illustrations generated for DreamSprout (AI-assisted, editor reviewed)",
+   "kind": "static"
+  },
+  "narration": {
+   "credit": "Narration synthesised for DreamSprout with Microsoft Edge neural TTS (voice en-US-AnaNeural)",
+   "voice": "en-US-AnaNeural",
+   "kind": "tts"
+  },
+  "pages": [
+   {
+    "index": 1,
+    "text": "A shepherd boy watched his sheep on a quiet hill. He was bored, so he shouted, \"Wolf! Wolf!\" The villagers came running, but there was no wolf. The boy laughed and laughed.",
+    "sceneDescription": "the shepherd boy laughing on a green hill with sheep while villagers run up the path",
+    "image": "img/boy-cried-wolf-1.webp",
+    "audio": "audio/boy-cried-wolf-1.mp3",
+    "audioDurationSec": 18.077,
+    "timingKey": "boy-cried-wolf-1"
+   },
+   {
+    "index": 2,
+    "text": "The next day he did it again. \"Wolf! Wolf!\" Again the villagers came, and again there was no wolf. This time they were not happy at all.",
+    "sceneDescription": "annoyed villagers with hands on hips facing the grinning shepherd boy on the hill",
+    "image": "img/boy-cried-wolf-2.webp",
+    "audio": "audio/boy-cried-wolf-2.mp3",
+    "audioDurationSec": 15.02,
+    "timingKey": "boy-cried-wolf-2"
+   },
+   {
+    "index": 3,
+    "text": "Then one evening a real wolf came. \"Wolf! Wolf!\" the boy cried, but nobody came. Luckily the sheep ran home safe, and the boy promised to always tell the truth.",
+    "sceneDescription": "a grey wolf at the edge of a forest at dusk as the boy calls out and sheep run toward a village",
+    "image": "img/boy-cried-wolf-3.webp",
+    "audio": "audio/boy-cried-wolf-3.mp3",
+    "audioDurationSec": 16.901,
+    "timingKey": "boy-cried-wolf-3"
+   }
+  ]
+ },
+ {
+  "id": "ant-grasshopper",
+  "title": "The Ant and the Grasshopper",
+  "origin": "Aesop's Fables",
+  "source": "Aesop's Fables (public domain), retold by DreamSprout",
+  "license": {
+   "kind": "public-domain",
+   "name": "Public domain (source text)",
+   "holder": "Public domain",
+   "notes": "Traditional tale from Aesop's Fables; the source is in the public domain. This retelling is © DreamSprout."
+  },
+  "ageBand": "4-6",
+  "minutes": 2,
+  "tags": [
+   "Animals",
+   "Fables"
+  ],
+  "moral": "Work first, then play.",
+  "synopsis": "A busy ant prepares for winter while a grasshopper sings all summer.",
+  "characters": "a hardworking little red ant and a cheerful green grasshopper with a tiny violin",
+  "language": "en",
+  "status": "published",
+  "illustration": {
+   "credit": "Illustrations generated for DreamSprout (AI-assisted, editor reviewed)",
+   "kind": "static"
+  },
+  "narration": {
+   "credit": "Narration synthesised for DreamSprout with Microsoft Edge neural TTS (voice en-US-AnaNeural)",
+   "voice": "en-US-AnaNeural",
+   "kind": "tts"
+  },
+  "pages": [
+   {
+    "index": 1,
+    "text": "All summer long, the grasshopper played his fiddle and sang in the sun. The little ant worked hard, carrying seeds and grain to her home. \"Come and play!\" called the grasshopper. \"Winter is coming,\" said the ant.",
+    "sceneDescription": "the grasshopper playing a violin on a flower while the ant carries a big seed in a summer meadow",
+    "image": "img/ant-grasshopper-1.webp",
+    "audio": "audio/ant-grasshopper-1.mp3",
+    "audioDurationSec": 19.879,
+    "timingKey": "ant-grasshopper-1"
+   },
+   {
+    "index": 2,
+    "text": "Then the cold winds blew and the snow fell. The grasshopper was hungry and shivering. He knocked on the ant's little door.",
+    "sceneDescription": "the shivering grasshopper knocking on a tiny door in a snowy tree root, winter twilight",
+    "image": "img/ant-grasshopper-2.webp",
+    "audio": "audio/ant-grasshopper-2.mp3",
+    "audioDurationSec": 11.624,
+    "timingKey": "ant-grasshopper-2"
+   },
+   {
+    "index": 3,
+    "text": "The kind ant shared her food, and the grasshopper played music to thank her. Next summer, he helped her work first, and then they played together. Work first, then play.",
+    "sceneDescription": "the ant and grasshopper cozy inside a warm burrow, sharing food and music by candlelight",
+    "image": "img/ant-grasshopper-3.webp",
+    "audio": "audio/ant-grasshopper-3.mp3",
+    "audioDurationSec": 15.909,
+    "timingKey": "ant-grasshopper-3"
+   }
+  ]
+ },
+ {
+  "id": "town-country-mouse",
+  "title": "The Town Mouse and the Country Mouse",
+  "origin": "Aesop's Fables",
+  "source": "Aesop's Fables (public domain), retold by DreamSprout",
+  "license": {
+   "kind": "public-domain",
+   "name": "Public domain (source text)",
+   "holder": "Public domain",
+   "notes": "Traditional tale from Aesop's Fables; the source is in the public domain. This retelling is © DreamSprout."
+  },
+  "ageBand": "4-6",
+  "minutes": 3,
+  "tags": [
+   "Animals",
+   "Fables"
+  ],
+  "moral": "A peaceful home is the best home.",
+  "synopsis": "Two mouse cousins visit each other and discover what really matters.",
+  "characters": "a simple country mouse in a little scarf and a fancy town mouse in a tiny waistcoat",
+  "language": "en",
+  "status": "published",
+  "illustration": {
+   "credit": "Illustrations generated for DreamSprout (AI-assisted, editor reviewed)",
+   "kind": "static"
+  },
+  "narration": {
+   "credit": "Narration synthesised for DreamSprout with Microsoft Edge neural TTS (voice en-US-AnaNeural)",
+   "voice": "en-US-AnaNeural",
+   "kind": "tts"
+  },
+  "pages": [
+   {
+    "index": 1,
+    "text": "The country mouse invited his cousin from town for dinner. They ate seeds and berries in a cozy burrow under a hedge. \"So plain!\" said the town mouse. \"Come to the city and see how I live.\"",
+    "sceneDescription": "the two mice sharing berries at a tiny table in a cozy burrow under a hedge",
+    "image": "img/town-country-mouse-1.webp",
+    "audio": "audio/town-country-mouse-1.mp3",
+    "audioDurationSec": 18.024,
+    "timingKey": "town-country-mouse-1"
+   },
+   {
+    "index": 2,
+    "text": "In the city, they feasted on cake and cheese in a grand dining room. But suddenly the door burst open, and a big cat chased them all around the room!",
+    "sceneDescription": "the two mice on a fancy dining table full of cakes while a big orange cat leaps toward them",
+    "image": "img/town-country-mouse-2.webp",
+    "audio": "audio/town-country-mouse-2.mp3",
+    "audioDurationSec": 13.244,
+    "timingKey": "town-country-mouse-2"
+   },
+   {
+    "index": 3,
+    "text": "\"Goodbye, cousin,\" said the country mouse. \"I would rather eat plain seeds in peace than cake in fear.\" And he went home to his quiet hedge. A peaceful home is the best home.",
+    "sceneDescription": "the country mouse walking home along a moonlit country lane toward his hedge burrow",
+    "image": "img/town-country-mouse-3.webp",
+    "audio": "audio/town-country-mouse-3.mp3",
+    "audioDurationSec": 16.692,
+    "timingKey": "town-country-mouse-3"
+   }
+  ]
+ },
+ {
+  "id": "elves-shoemaker",
+  "title": "The Elves and the Shoemaker",
+  "origin": "Brothers Grimm",
+  "source": "Brothers Grimm (public domain), retold by DreamSprout",
+  "license": {
+   "kind": "public-domain",
+   "name": "Public domain (source text)",
+   "holder": "Public domain",
+   "notes": "Traditional tale from Brothers Grimm; the source is in the public domain. This retelling is © DreamSprout."
+  },
+  "ageBand": "4-6",
+  "minutes": 3,
+  "tags": [
+   "Kindness",
+   "Magic"
+  ],
+  "moral": "Kindness always comes back to you.",
+  "synopsis": "Tiny secret helpers save a poor shoemaker, and he finds a way to thank them.",
+  "characters": "a kind old shoemaker with spectacles and two tiny elves",
+  "language": "en",
+  "status": "published",
+  "illustration": {
+   "credit": "Illustrations generated for DreamSprout (AI-assisted, editor reviewed)",
+   "kind": "static"
+  },
+  "narration": {
+   "credit": "Narration synthesised for DreamSprout with Microsoft Edge neural TTS (voice en-US-AnaNeural)",
+   "voice": "en-US-AnaNeural",
+   "kind": "tts"
+  },
+  "pages": [
+   {
+    "index": 1,
+    "text": "A kind shoemaker had only enough leather for one last pair of shoes. He cut it out, left it on his bench, and went to bed. In the morning, a perfect pair of shoes was waiting!",
+    "sceneDescription": "the shoemaker amazed at a perfect pair of shoes on his workbench in a cozy old workshop at morning",
+    "image": "img/elves-shoemaker-1.webp",
+    "audio": "audio/elves-shoemaker-1.mp3",
+    "audioDurationSec": 16.353,
+    "timingKey": "elves-shoemaker-1"
+   },
+   {
+    "index": 2,
+    "text": "Night after night it happened again. So he and his wife hid and watched. At midnight, two tiny elves appeared and stitched away, singing as they worked.",
+    "sceneDescription": "two tiny elves sewing shoes by candlelight on a workbench at midnight, the shoemaker peeking from behind a curtain",
+    "image": "img/elves-shoemaker-2.webp",
+    "audio": "audio/elves-shoemaker-2.mp3",
+    "audioDurationSec": 14.341,
+    "timingKey": "elves-shoemaker-2"
+   },
+   {
+    "index": 3,
+    "text": "To thank them, the shoemaker made two tiny pairs of shoes and his wife sewed tiny clothes. The elves danced with joy and skipped away. Kindness always comes back to you.",
+    "sceneDescription": "two elves dancing joyfully in tiny new clothes and shoes on the workbench, magical sparkles",
+    "image": "img/elves-shoemaker-3.webp",
+    "audio": "audio/elves-shoemaker-3.mp3",
+    "audioDurationSec": 15.83,
+    "timingKey": "elves-shoemaker-3"
+   }
+  ]
+ },
+ {
+  "id": "princess-pea",
+  "title": "The Princess and the Pea",
+  "origin": "Hans Christian Andersen",
+  "source": "Hans Christian Andersen (public domain), retold by DreamSprout",
+  "license": {
+   "kind": "public-domain",
+   "name": "Public domain (source text)",
+   "holder": "Public domain",
+   "notes": "Traditional tale from Hans Christian Andersen; the source is in the public domain. This retelling is © DreamSprout."
+  },
+  "ageBand": "4-6",
+  "minutes": 2,
+  "tags": [
+   "Magic"
+  ],
+  "moral": "True qualities show in small things.",
+  "synopsis": "A rainy night, a mysterious visitor, and a very tall bed.",
+  "characters": "a young princess with long dark hair in a soaked cloak, and a queen",
+  "language": "en",
+  "status": "published",
+  "illustration": {
+   "credit": "Illustrations generated for DreamSprout (AI-assisted, editor reviewed)",
+   "kind": "static"
+  },
+  "narration": {
+   "credit": "Narration synthesised for DreamSprout with Microsoft Edge neural TTS (voice en-US-AnaNeural)",
+   "voice": "en-US-AnaNeural",
+   "kind": "tts"
+  },
+  "pages": [
+   {
+    "index": 1,
+    "text": "On a stormy night, there was a knock at the castle gate. A girl stood there, soaking wet. \"I am a real princess,\" she said. The queen smiled. \"We shall see.\"",
+    "sceneDescription": "a soaked princess at a castle gate in a thunderstorm at night, the queen holding a lantern",
+    "image": "img/princess-pea-1.webp",
+    "audio": "audio/princess-pea-1.mp3",
+    "audioDurationSec": 16.823,
+    "timingKey": "princess-pea-1"
+   },
+   {
+    "index": 2,
+    "text": "The queen placed one tiny pea on a bed, then piled twenty mattresses and twenty quilts on top. The princess climbed all the way up to sleep.",
+    "sceneDescription": "a very tall stack of colorful mattresses in a castle bedroom with the princess climbing a ladder",
+    "image": "img/princess-pea-2.webp",
+    "audio": "audio/princess-pea-2.mp3",
+    "audioDurationSec": 12.748,
+    "timingKey": "princess-pea-2"
+   },
+   {
+    "index": 3,
+    "text": "In the morning she said, \"I hardly slept! Something hard was in my bed.\" Only a real princess could feel a pea through all those mattresses. True qualities show in small things.",
+    "sceneDescription": "the sleepy princess at breakfast in a sunny castle hall, the queen holding up a tiny green pea",
+    "image": "img/princess-pea-3.webp",
+    "audio": "audio/princess-pea-3.mp3",
+    "audioDurationSec": 17.058,
+    "timingKey": "princess-pea-3"
+   }
+  ]
+ },
+ {
+  "id": "jack-beanstalk",
+  "title": "Jack and the Beanstalk",
+  "origin": "English folk tale",
+  "source": "English folk tale (public domain), retold by DreamSprout",
+  "license": {
+   "kind": "public-domain",
+   "name": "Public domain (source text)",
+   "holder": "Public domain",
+   "notes": "Traditional tale from English folk tale; the source is in the public domain. This retelling is © DreamSprout."
+  },
+  "ageBand": "6-8",
+  "minutes": 3,
+  "tags": [
+   "Adventure",
+   "Magic"
+  ],
+  "moral": "Courage and quick thinking go a long way.",
+  "synopsis": "Magic beans grow a beanstalk all the way to a giant's castle in the clouds.",
+  "characters": "a brave boy named Jack with messy red hair and patched clothes, and a big clumsy giant",
+  "language": "en",
+  "status": "published",
+  "illustration": {
+   "credit": "Illustrations generated for DreamSprout (AI-assisted, editor reviewed)",
+   "kind": "static"
+  },
+  "narration": {
+   "credit": "Narration synthesised for DreamSprout with Microsoft Edge neural TTS (voice en-US-AnaNeural)",
+   "voice": "en-US-AnaNeural",
+   "kind": "tts"
+  },
+  "pages": [
+   {
+    "index": 1,
+    "text": "Jack traded his cow for five magic beans. His mother tossed them out the window, but overnight they grew into a giant beanstalk that reached the clouds!",
+    "sceneDescription": "an enormous beanstalk rising from a small cottage garden into the clouds at dawn, Jack looking up amazed",
+    "image": "img/jack-beanstalk-1.webp",
+    "audio": "audio/jack-beanstalk-1.mp3",
+    "audioDurationSec": 13.296,
+    "timingKey": "jack-beanstalk-1"
+   },
+   {
+    "index": 2,
+    "text": "Jack climbed up and up and found a castle in the sky. Inside lived a giant with a goose that laid golden eggs. \"Fee-fi-fo-fum!\" the giant boomed.",
+    "sceneDescription": "Jack tiptoeing past a huge sleeping giant in a castle in the clouds, a golden goose on the table",
+    "image": "img/jack-beanstalk-2.webp",
+    "audio": "audio/jack-beanstalk-2.mp3",
+    "audioDurationSec": 14.315,
+    "timingKey": "jack-beanstalk-2"
+   },
+   {
+    "index": 3,
+    "text": "Jack grabbed the goose and slid down the beanstalk. He chopped it down just in time, and he and his mother never went hungry again. Courage and quick thinking go a long way.",
+    "sceneDescription": "Jack and his mother hugging a golden goose by their cottage as the beanstalk falls, golden light",
+    "image": "img/jack-beanstalk-3.webp",
+    "audio": "audio/jack-beanstalk-3.mp3",
+    "audioDurationSec": 15.491,
+    "timingKey": "jack-beanstalk-3"
+   }
+  ]
+ },
+ {
+  "id": "fox-grapes",
+  "title": "The Fox and the Grapes",
+  "origin": "Aesop's Fables",
+  "source": "Aesop's Fables (public domain), retold by DreamSprout",
+  "license": {
+   "kind": "public-domain",
+   "name": "Public domain (source text)",
+   "holder": "Public domain",
+   "notes": "Traditional tale from Aesop's Fables; the source is in the public domain. This retelling is © DreamSprout."
+  },
+  "ageBand": "4-6",
+  "minutes": 2,
+  "tags": [
+   "Animals",
+   "Fables"
+  ],
+  "moral": "It's okay to say something is hard.",
+  "synopsis": "A hungry fox tries and tries to reach some juicy grapes.",
+  "characters": "a bushy-tailed orange fox",
+  "language": "en",
+  "status": "published",
+  "illustration": {
+   "credit": "Illustrations generated for DreamSprout (AI-assisted, editor reviewed)",
+   "kind": "static"
+  },
+  "narration": {
+   "credit": "Narration synthesised for DreamSprout with Microsoft Edge neural TTS (voice en-US-AnaNeural)",
+   "voice": "en-US-AnaNeural",
+   "kind": "tts"
+  },
+  "pages": [
+   {
+    "index": 1,
+    "text": "A hungry fox wandered into a vineyard. High above him hung a bunch of juicy purple grapes. \"Those look delicious,\" he said, licking his lips.",
+    "sceneDescription": "the fox looking up at juicy purple grapes hanging from a vine in a sunny vineyard",
+    "image": "img/fox-grapes-1.webp",
+    "audio": "audio/fox-grapes-1.mp3",
+    "audioDurationSec": 13.897,
+    "timingKey": "fox-grapes-1"
+   },
+   {
+    "index": 2,
+    "text": "He jumped, but missed. He jumped higher, and missed again. He jumped and jumped until he was all tired out.",
+    "sceneDescription": "the fox leaping high toward the grapes, mid-air, golden afternoon vineyard",
+    "image": "img/fox-grapes-2.webp",
+    "audio": "audio/fox-grapes-2.mp3",
+    "audioDurationSec": 11.337,
+    "timingKey": "fox-grapes-2"
+   },
+   {
+    "index": 3,
+    "text": "\"Those grapes are probably sour anyway,\" he grumbled, and walked away. But deep down he knew they were sweet. It's okay to say something is hard, and to try again another day.",
+    "sceneDescription": "the fox walking away grumpily down a vineyard path at sunset, glancing back at the grapes",
+    "image": "img/fox-grapes-3.webp",
+    "audio": "audio/fox-grapes-3.mp3",
+    "audioDurationSec": 16.222,
+    "timingKey": "fox-grapes-3"
+   }
+  ]
+ },
+ {
+  "id": "north-wind-sun",
+  "title": "The North Wind and the Sun",
+  "origin": "Aesop's Fables",
+  "source": "Aesop's Fables (public domain), retold by DreamSprout",
+  "license": {
+   "kind": "public-domain",
+   "name": "Public domain (source text)",
+   "holder": "Public domain",
+   "notes": "Traditional tale from Aesop's Fables; the source is in the public domain. This retelling is © DreamSprout."
+  },
+  "ageBand": "6-8",
+  "minutes": 2,
+  "tags": [
+   "Fables",
+   "Calm"
+  ],
+  "moral": "Gentleness wins where force fails.",
+  "synopsis": "The Wind and the Sun hold a contest to see who is stronger.",
+  "characters": "a puffy blue North Wind face in the clouds and a warm smiling Sun face, and a traveler in a long cloak",
+  "language": "en",
+  "status": "published",
+  "illustration": {
+   "credit": "Illustrations generated for DreamSprout (AI-assisted, editor reviewed)",
+   "kind": "static"
+  },
+  "narration": {
+   "credit": "Narration synthesised for DreamSprout with Microsoft Edge neural TTS (voice en-US-AnaNeural)",
+   "voice": "en-US-AnaNeural",
+   "kind": "tts"
+  },
+  "pages": [
+   {
+    "index": 1,
+    "text": "The North Wind and the Sun argued about who was stronger. Below them walked a traveler in a warm cloak. \"Whoever makes him take off his cloak wins,\" said the Sun.",
+    "sceneDescription": "the Wind and Sun faces in the sky looking down at a traveler walking on a country road",
+    "image": "img/north-wind-sun-1.webp",
+    "audio": "audio/north-wind-sun-1.mp3",
+    "audioDurationSec": 14.785,
+    "timingKey": "north-wind-sun-1"
+   },
+   {
+    "index": 2,
+    "text": "The Wind blew hard and cold. But the harder he blew, the tighter the traveler held his cloak around him.",
+    "sceneDescription": "the Wind blowing a fierce gust as the traveler clutches his cloak, leaves swirling",
+    "image": "img/north-wind-sun-2.webp",
+    "audio": "audio/north-wind-sun-2.mp3",
+    "audioDurationSec": 9.665,
+    "timingKey": "north-wind-sun-2"
+   },
+   {
+    "index": 3,
+    "text": "Then the Sun shone gently and warmly. The traveler smiled, grew warm, and took off his cloak to rest under a tree. Gentleness wins where force fails.",
+    "sceneDescription": "the traveler resting under a tree in warm sunshine with his cloak off, the Sun smiling",
+    "image": "img/north-wind-sun-3.webp",
+    "audio": "audio/north-wind-sun-3.mp3",
+    "audioDurationSec": 14.785,
+    "timingKey": "north-wind-sun-3"
+   }
+  ]
+ },
+ {
+  "id": "little-red-hen",
+  "title": "The Little Red Hen",
+  "origin": "English folk tale",
+  "source": "English folk tale (public domain), retold by DreamSprout",
+  "license": {
+   "kind": "public-domain",
+   "name": "Public domain (source text)",
+   "holder": "Public domain",
+   "notes": "Traditional tale from English folk tale; the source is in the public domain. This retelling is © DreamSprout."
+  },
+  "ageBand": "3-5",
+  "minutes": 2,
+  "tags": [
+   "Animals",
+   "Kindness"
+  ],
+  "moral": "Those who help, share the reward.",
+  "synopsis": "A hardworking hen asks her friends for help making bread.",
+  "characters": "a little red hen in an apron, a lazy cat, a sleepy dog and a duck",
+  "language": "en",
+  "status": "published",
+  "illustration": {
+   "credit": "Illustrations generated for DreamSprout (AI-assisted, editor reviewed)",
+   "kind": "static"
+  },
+  "narration": {
+   "credit": "Narration synthesised for DreamSprout with Microsoft Edge neural TTS (voice en-US-AnaNeural)",
+   "voice": "en-US-AnaNeural",
+   "kind": "tts"
+  },
+  "pages": [
+   {
+    "index": 1,
+    "text": "The little red hen found some grains of wheat. \"Who will help me plant them?\" she asked. \"Not I,\" said the cat, the dog and the duck. So she planted them herself.",
+    "sceneDescription": "the little red hen planting wheat in a farmyard while a cat, dog and duck lounge lazily",
+    "image": "img/little-red-hen-1.webp",
+    "audio": "audio/little-red-hen-1.mp3",
+    "audioDurationSec": 16.327,
+    "timingKey": "little-red-hen-1"
+   },
+   {
+    "index": 2,
+    "text": "She cut the wheat, ground it into flour, and baked a golden loaf of bread, all by herself. It smelled wonderful.",
+    "sceneDescription": "the hen pulling a golden loaf of bread out of a warm farmhouse oven",
+    "image": "img/little-red-hen-2.webp",
+    "audio": "audio/little-red-hen-2.mp3",
+    "audioDurationSec": 11.102,
+    "timingKey": "little-red-hen-2"
+   },
+   {
+    "index": 3,
+    "text": "\"Who will help me eat it?\" she asked. \"I will!\" said everyone. But the hen shared it with her chicks. Next time, the cat, the dog and the duck all helped. Those who help, share the reward.",
+    "sceneDescription": "the hen and her fluffy chicks eating bread together at a table, the others peeking in the window",
+    "image": "img/little-red-hen-3.webp",
+    "audio": "audio/little-red-hen-3.mp3",
+    "audioDurationSec": 19.67,
+    "timingKey": "little-red-hen-3"
+   }
+  ]
+ },
+ {
+  "id": "gingerbread-man",
+  "title": "The Gingerbread Man",
+  "origin": "American folk tale",
+  "source": "American folk tale (public domain), retold by DreamSprout",
+  "license": {
+   "kind": "public-domain",
+   "name": "Public domain (source text)",
+   "holder": "Public domain",
+   "notes": "Traditional tale from American folk tale; the source is in the public domain. This retelling is © DreamSprout."
+  },
+  "ageBand": "3-5",
+  "minutes": 2,
+  "tags": [
+   "Adventure"
+  ],
+  "moral": "Think before you trust a stranger.",
+  "synopsis": "A cheeky cookie runs away from everyone, until he meets a clever fox.",
+  "characters": "a cheeky gingerbread man cookie with icing buttons, and a sly orange fox",
+  "language": "en",
+  "status": "published",
+  "illustration": {
+   "credit": "Illustrations generated for DreamSprout (AI-assisted, editor reviewed)",
+   "kind": "static"
+  },
+  "narration": {
+   "credit": "Narration synthesised for DreamSprout with Microsoft Edge neural TTS (voice en-US-AnaNeural)",
+   "voice": "en-US-AnaNeural",
+   "kind": "tts"
+  },
+  "pages": [
+   {
+    "index": 1,
+    "text": "An old woman baked a gingerbread man. When she opened the oven, he jumped out and ran! \"Run, run, as fast as you can! You can't catch me, I'm the Gingerbread Man!\"",
+    "sceneDescription": "the gingerbread man jumping out of an oven and running across a cozy kitchen",
+    "image": "img/gingerbread-man-1.webp",
+    "audio": "audio/gingerbread-man-1.mp3",
+    "audioDurationSec": 17.215,
+    "timingKey": "gingerbread-man-1"
+   },
+   {
+    "index": 2,
+    "text": "He ran past the old man, past a cow, and past a horse. Nobody could catch him! Then he came to a wide river.",
+    "sceneDescription": "the gingerbread man running down a country lane chased by a cow and horse toward a river",
+    "image": "img/gingerbread-man-2.webp",
+    "audio": "audio/gingerbread-man-2.mp3",
+    "audioDurationSec": 11.912,
+    "timingKey": "gingerbread-man-2"
+   },
+   {
+    "index": 3,
+    "text": "\"Hop on my tail and I'll carry you across,\" said a sly fox. But the gingerbread man remembered: never trust a stranger. He built a little leaf boat and sailed across instead. Think before you trust a stranger.",
+    "sceneDescription": "the gingerbread man sailing a leaf boat across a sparkling river while the fox watches from the bank",
+    "image": "img/gingerbread-man-3.webp",
+    "audio": "audio/gingerbread-man-3.mp3",
+    "audioDurationSec": 19.67,
+    "timingKey": "gingerbread-man-3"
+   }
+  ]
+ },
+ {
+  "id": "pip-star",
+  "title": "Pip, the Star Who Couldn't Sleep",
+  "origin": "DreamSprout",
+  "source": "DreamSprout Original",
+  "license": {
+   "kind": "original",
+   "name": "DreamSprout Original",
+   "holder": "DreamSprout",
+   "notes": "Original story written for DreamSprout. All rights reserved."
+  },
+  "ageBand": "3-5",
+  "minutes": 3,
+  "tags": [
+   "Calm",
+   "Bedtime"
+  ],
+  "moral": "Rest helps us shine our brightest.",
+  "synopsis": "A little star stays up too late, and learns why every star needs rest.",
+  "characters": "a tiny cute glowing star character with a smiling face named Pip, and a wise old silver moon",
+  "language": "en",
+  "status": "published",
+  "illustration": {
+   "credit": "Illustrations generated for DreamSprout (AI-assisted, editor reviewed)",
+   "kind": "static"
+  },
+  "narration": {
+   "credit": "Narration synthesised for DreamSprout with Microsoft Edge neural TTS (voice en-US-AnaNeural)",
+   "voice": "en-US-AnaNeural",
+   "kind": "tts"
+  },
+  "pages": [
+   {
+    "index": 1,
+    "text": "High in the sky lived a little star named Pip. Every night Pip wanted to stay up and play, zipping between the clouds long after the other stars had dimmed.",
+    "sceneDescription": "the little star zipping playfully between purple clouds in a starry night sky",
+    "image": "img/pip-star-1.webp",
+    "audio": "audio/pip-star-1.mp3",
+    "audioDurationSec": 13.218,
+    "timingKey": "pip-star-1"
+   },
+   {
+    "index": 2,
+    "text": "One night Pip felt so tired that his light began to flicker. \"Why am I so dim?\" he asked. The wise old Moon smiled. \"Even stars need rest, little one.\"",
+    "sceneDescription": "the flickering tired little star talking to a kind smiling crescent moon in a deep blue sky",
+    "image": "img/pip-star-2.webp",
+    "audio": "audio/pip-star-2.mp3",
+    "audioDurationSec": 16.457,
+    "timingKey": "pip-star-2"
+   },
+   {
+    "index": 3,
+    "text": "So Pip snuggled into a soft cloud and closed his eyes. The next night, he shone brighter than ever. Rest helps us shine our brightest.",
+    "sceneDescription": "the little star sleeping snuggled in a fluffy pink cloud, gentle starlight all around",
+    "image": "img/pip-star-3.webp",
+    "audio": "audio/pip-star-3.mp3",
+    "audioDurationSec": 13.531,
+    "timingKey": "pip-star-3"
+   }
+  ]
+ },
+ {
+  "id": "ollie-owl",
+  "title": "Ollie the Owl's Moon Lantern",
+  "origin": "DreamSprout",
+  "source": "DreamSprout Original",
+  "license": {
+   "kind": "original",
+   "name": "DreamSprout Original",
+   "holder": "DreamSprout",
+   "notes": "Original story written for DreamSprout. All rights reserved."
+  },
+  "ageBand": "4-6",
+  "minutes": 3,
+  "tags": [
+   "Calm",
+   "Animals",
+   "Bedtime"
+  ],
+  "moral": "Helping friends lights up the night.",
+  "synopsis": "A young owl uses his lantern to guide lost forest friends home.",
+  "characters": "a fluffy young brown owl with big round eyes carrying a small glowing lantern",
+  "language": "en",
+  "status": "published",
+  "illustration": {
+   "credit": "Illustrations generated for DreamSprout (AI-assisted, editor reviewed)",
+   "kind": "static"
+  },
+  "narration": {
+   "credit": "Narration synthesised for DreamSprout with Microsoft Edge neural TTS (voice en-US-AnaNeural)",
+   "voice": "en-US-AnaNeural",
+   "kind": "tts"
+  },
+  "pages": [
+   {
+    "index": 1,
+    "text": "Ollie the owl had a little lantern that glowed like the moon. One misty night, he heard a small voice. \"I can't find my way home,\" sniffled a baby rabbit.",
+    "sceneDescription": "the owl with his glowing lantern perched on a branch above a lost baby rabbit in a misty forest",
+    "image": "img/ollie-owl-1.webp",
+    "audio": "audio/ollie-owl-1.mp3",
+    "audioDurationSec": 14.524,
+    "timingKey": "ollie-owl-1"
+   },
+   {
+    "index": 2,
+    "text": "Ollie lifted his lantern high. Its soft light shone through the fog, and they set off together past the mushrooms and the sleeping ferns.",
+    "sceneDescription": "the owl flying low with the lantern guiding the rabbit along a glowing mushroom path in the fog",
+    "image": "img/ollie-owl-2.webp",
+    "audio": "audio/ollie-owl-2.mp3",
+    "audioDurationSec": 11.86,
+    "timingKey": "ollie-owl-2"
+   },
+   {
+    "index": 3,
+    "text": "At last they reached the rabbit's burrow, where his family hugged him tight. Ollie flew home happy and sleepy. Helping friends lights up the night.",
+    "sceneDescription": "a rabbit family hugging at their cozy burrow entrance as the owl flies away toward the moon",
+    "image": "img/ollie-owl-3.webp",
+    "audio": "audio/ollie-owl-3.mp3",
+    "audioDurationSec": 13.061,
+    "timingKey": "ollie-owl-3"
+   }
+  ]
+ },
+ {
+  "id": "cloud-dance",
+  "title": "Nimbus, the Cloud Who Wanted to Dance",
+  "origin": "DreamSprout",
+  "source": "DreamSprout Original",
+  "license": {
+   "kind": "original",
+   "name": "DreamSprout Original",
+   "holder": "DreamSprout",
+   "notes": "Original story written for DreamSprout. All rights reserved."
+  },
+  "ageBand": "3-5",
+  "minutes": 3,
+  "tags": [
+   "Calm",
+   "Magic"
+  ],
+  "moral": "Being yourself makes the world brighter.",
+  "synopsis": "A shy little cloud finds its own special way to dance.",
+  "characters": "a small fluffy white cloud character with rosy cheeks named Nimbus",
+  "language": "en",
+  "status": "published",
+  "illustration": {
+   "credit": "Illustrations generated for DreamSprout (AI-assisted, editor reviewed)",
+   "kind": "static"
+  },
+  "narration": {
+   "credit": "Narration synthesised for DreamSprout with Microsoft Edge neural TTS (voice en-US-AnaNeural)",
+   "voice": "en-US-AnaNeural",
+   "kind": "tts"
+  },
+  "pages": [
+   {
+    "index": 1,
+    "text": "Nimbus was a little cloud who loved to watch the birds dance in the sky. \"I wish I could dance too,\" Nimbus sighed, floating slowly by.",
+    "sceneDescription": "the little cloud watching swallows swoop through a pastel morning sky over green hills",
+    "image": "img/cloud-dance-1.webp",
+    "audio": "audio/cloud-dance-1.mp3",
+    "audioDurationSec": 12.173,
+    "timingKey": "cloud-dance-1"
+   },
+   {
+    "index": 2,
+    "text": "Nimbus tried to swoop and spin like the birds, but kept puffing apart and wobbling. The other clouds giggled, and Nimbus felt shy.",
+    "sceneDescription": "the little cloud wobbling and puffing apart while trying to spin, birds around, playful",
+    "image": "img/cloud-dance-2.webp",
+    "audio": "audio/cloud-dance-2.mp3",
+    "audioDurationSec": 12.095,
+    "timingKey": "cloud-dance-2"
+   },
+   {
+    "index": 3,
+    "text": "Then the sun peeked out and Nimbus sprinkled a gentle rain. A beautiful rainbow appeared, and everyone below cheered. That was Nimbus's very own dance. Being yourself makes the world brighter.",
+    "sceneDescription": "the happy little cloud raining gently as a big rainbow arcs over a village with children cheering",
+    "image": "img/cloud-dance-3.webp",
+    "audio": "audio/cloud-dance-3.mp3",
+    "audioDurationSec": 18.024,
+    "timingKey": "cloud-dance-3"
+   }
+  ]
+ }
+]

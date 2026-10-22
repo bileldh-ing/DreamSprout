@@ -1,0 +1,38 @@
+{
+  "name": "dreamsprout",
+  "private": true,
+  "version": "1.0.0",
+  "description": "DreamSprout Stories — narrated, illustrated bedtime stories for kids. Expo mobile app, Next.js content studio, Supabase backend.",
+  "license": "MIT",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "engines": {
+    "node": ">=20.19"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present",
+    "test:coverage": "npm run test:coverage --workspaces --if-present",
+    "validate:content": "npm run validate -w @dreamsprout/content",
+    "seed:build": "node scripts/build-seed.mjs",
+    "mobile:web": "npm run export:web -w @dreamsprout/mobile",
+    "studio:build": "npm run build -w @dreamsprout/studio",
+    "ci": "npm run lint && npm run typecheck && npm run validate:content && npm test"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.0",
+    "eslint": "^9.39.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "globals": "^17.0.0",
+    "prettier": "^3.6.2",
+    "typescript": "~6.0.3",
+    "typescript-eslint": "^8.72.0"
+  }
+}
