@@ -1,0 +1,66 @@
+:root {
+  --bg-top: #1a1f4b;
+  --bg-bottom: #0b0f24;
+  --glass: rgba(255, 255, 255, 0.07);
+  --glass-strong: rgba(255, 255, 255, 0.12);
+  --border: rgba(255, 255, 255, 0.16);
+  --text: #fff;
+  --muted: rgba(255, 255, 255, 0.7);
+  --faint: rgba(255, 255, 255, 0.45);
+  --violet: #7b6cf6;
+  --violet-light: #9b8cff;
+  --moon: #ffe7a3;
+  --danger: #ff7a8a;
+  --success: #7ee2b8;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; min-height: 100%; }
+body {
+  font-family: ui-rounded, 'SF Pro Rounded', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  color: var(--text);
+  background: linear-gradient(160deg, var(--bg-top), var(--bg-bottom) 60%) fixed;
+}
+a { color: inherit; }
+.shell { max-width: 1180px; margin: 0 auto; padding: 24px; }
+.topbar { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-bottom: 24px; flex-wrap: wrap; }
+.brand { font-weight: 800; font-size: 22px; text-decoration: none; }
+.mode { font-size: 12px; color: var(--muted); border: 1px solid var(--border); border-radius: 999px; padding: 6px 12px; }
+.glass { background: var(--glass); border: 1px solid var(--border); border-radius: 20px; backdrop-filter: blur(18px); -webkit-backdrop-filter: blur(18px); }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 16px; }
+.card { overflow: hidden; text-decoration: none; display: block; transition: transform 0.15s; }
+.card:hover { transform: translateY(-2px); }
+.card img { width: 100%; height: 150px; object-fit: cover; display: block; }
+.card .body { padding: 12px 14px 14px; }
+.card h3 { margin: 0 0 6px; font-size: 16px; }
+.muted { color: var(--muted); }
+.faint { color: var(--faint); font-size: 13px; }
+.badge { display: inline-block; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; padding: 3px 9px; border-radius: 999px; }
+.badge.draft { background: rgba(255, 255, 255, 0.15); }
+.badge.review { background: rgba(255, 231, 163, 0.25); color: var(--moon); }
+.badge.published { background: rgba(126, 226, 184, 0.2); color: var(--success); }
+.badge.archived { background: rgba(255, 122, 138, 0.2); color: var(--danger); }
+.btn { border: 0; border-radius: 14px; padding: 11px 18px; font-weight: 700; font-size: 15px; cursor: pointer; min-height: 44px; }
+.btn-primary { color: #fff; background: linear-gradient(135deg, var(--violet), var(--violet-light)); box-shadow: 0 6px 20px rgba(123, 108, 246, 0.45); }
+.btn-pill { color: #141838; background: #fff; }
+.btn-ghost { color: #fff; background: var(--glass-strong); border: 1px solid var(--border); }
+.btn:disabled { opacity: 0.45; cursor: not-allowed; }
+.row { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
+.editor { display: grid; grid-template-columns: 1fr 340px; gap: 20px; }
+@media (max-width: 900px) { .editor { grid-template-columns: 1fr; } }
+.panel { padding: 18px; }
+.panel h2 { margin: 0 0 12px; font-size: 18px; }
+label { display: block; font-size: 13px; color: var(--muted); margin: 12px 0 6px; font-weight: 600; }
+input, textarea, select { width: 100%; color: #fff; background: rgba(255, 255, 255, 0.06); border: 1px solid var(--border); border-radius: 12px; padding: 10px 12px; font: inherit; }
+textarea { min-height: 110px; resize: vertical; line-height: 1.5; }
+select option { color: #000; }
+.page { display: grid; grid-template-columns: 200px 1fr; gap: 14px; padding: 14px; margin-top: 12px; }
+@media (max-width: 640px) { .page { grid-template-columns: 1fr; } }
+.page img { width: 200px; height: 150px; object-fit: cover; border-radius: 12px; }
+.check { display: flex; gap: 10px; align-items: flex-start; margin: 10px 0; color: #fff; font-size: 14px; }
+.check input { width: 20px; height: 20px; margin-top: 1px; }
+.issues { color: var(--danger); font-size: 13px; padding-left: 18px; }
+.ok { color: var(--success); font-size: 13px; }
+.filters { display: flex; gap: 8px; margin-bottom: 16px; flex-wrap: wrap; }
+.chip { padding: 7px 14px; border-radius: 999px; border: 1px solid var(--border); background: var(--glass); color: var(--muted); text-decoration: none; font-size: 14px; }
+.chip.on { background: var(--violet); color: #fff; border-color: var(--violet-light); }
+.drop { border: 1px dashed var(--border); border-radius: 12px; padding: 10px; font-size: 12px; color: var(--faint); margin-top: 8px; word-break: break-all; }
