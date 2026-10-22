@@ -174,8 +174,7 @@ export const useAppStore = create<AppState>()(
 
       updateSettings: (patch) => set({ settings: { ...get().settings, ...patch } }),
 
-      markDownloaded: (storyId, bytes) =>
-        set({ downloads: { ...get().downloads, [storyId]: { downloadedAt: Date.now(), bytes } } }),
+      markDownloaded: (storyId, bytes) => set({ downloads: { ...get().downloads, [storyId]: { downloadedAt: Date.now(), bytes } } }),
       removeDownload: (storyId) => {
         const { [storyId]: _d, ...rest } = get().downloads;
         set({ downloads: rest });
@@ -194,8 +193,7 @@ export const useAppStore = create<AppState>()(
       name: 'dreamsprout-app',
       version: 1,
       storage: createJSONStorage(() => AsyncStorage),
-      partialize: ({ hydrated: _h, ...rest }) =>
-        Object.fromEntries(Object.entries(rest).filter(([, v]) => typeof v !== 'function')) as Partial<AppState>,
+      partialize: ({ hydrated: _h, ...rest }) => Object.fromEntries(Object.entries(rest).filter(([, v]) => typeof v !== 'function')) as Partial<AppState>,
       onRehydrateStorage: () => (state) => state?.setHydrated(),
     },
   ),

@@ -32,7 +32,6 @@ export default async function StoryList({ searchParams }: { searchParams: Promis
       <section className="grid">
         {list.map(({ story, checklist }) => (
           <Link key={story.id} href={`/stories/${story.id}`} className="glass card" data-testid={`story-${story.id}`}>
-            {/* eslint-disable-next-line @next/next/no-img-element */}
             <img src={`/stories/${story.pages[0]?.image ?? ''}`} alt="" />
             <div className="body">
               <h3>{story.title}</h3>

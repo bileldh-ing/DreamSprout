@@ -153,7 +153,6 @@ export function StoryEditor({ initial, timings }: Props) {
             return (
               <div key={p.index} className="glass page">
                 <div>
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img src={`/stories/${p.image}`} alt={p.sceneDescription} />
                   <div className="drop">
                     Illustration: {p.image}
@@ -187,7 +186,11 @@ export function StoryEditor({ initial, timings }: Props) {
             <label htmlFor="source">Source</label>
             <input id="source" value={story.source} onChange={(e) => set('source', e.target.value)} />
             <label htmlFor="lkind">Licence type</label>
-            <select id="lkind" value={story.license.kind} onChange={(e) => set('license', { ...story.license, kind: e.target.value as Story['license']['kind'] })}>
+            <select
+              id="lkind"
+              value={story.license.kind}
+              onChange={(e) => set('license', { ...story.license, kind: e.target.value as Story['license']['kind'] })}
+            >
               {LICENSE_KINDS.map((k) => (
                 <option key={k}>{k}</option>
               ))}

@@ -75,8 +75,8 @@ export function tokenIndexForTiming(tokens: Token[], timingIndex: number): numbe
 /** Seek position (seconds) for tapping token `tokenIndex`: its own start, or the next timed token's start. */
 export function seekTimeForToken(tokens: Token[], timings: WordTiming[], tokenIndex: number): number | null {
   for (let i = tokenIndex; i < tokens.length; i++) {
-    const ti = tokens[i]!.timingIndex;
-    if (ti >= 0) return Math.max(0, timings[ti]![0] - 0.05);
+    const word = timings[tokens[i]!.timingIndex];
+    if (word) return Math.max(0, word[0] - 0.05);
   }
   return null;
 }
@@ -86,7 +86,7 @@ export function sentenceStart(tokens: Token[], timings: WordTiming[], activeToke
   if (activeToken < 0) return 0;
   const s = tokens[activeToken]!.sentence;
   const first = tokens.findIndex((t) => t.sentence === s && t.timingIndex >= 0);
-  return first >= 0 ? timings[tokens[first]!.timingIndex]![0] : 0;
+  return first >= 0 ? (timings[tokens[first]!.timingIndex]?.[0] ?? 0) : 0;
 }
 
 /** Fraction (0..1) of narration progress on this page. */

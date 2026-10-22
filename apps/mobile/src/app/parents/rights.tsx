@@ -15,7 +15,9 @@ export default function Rights() {
           <View style={{ paddingVertical: 8 }}>
             <Text style={styles.title}>{s.title}</Text>
             <Text style={styles.line}>📖 {s.source}</Text>
-            <Text style={styles.line}>⚖️ {s.license.name} — {s.license.notes}</Text>
+            <Text style={styles.line}>
+              ⚖️ {s.license.name} — {s.license.notes}
+            </Text>
             <Text style={styles.line}>🎨 {s.illustration.credit}</Text>
             <Text style={styles.line}>🎙️ {s.narration.credit}</Text>
           </View>

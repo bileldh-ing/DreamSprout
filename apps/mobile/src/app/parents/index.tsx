@@ -19,9 +19,21 @@ export default function ParentsHome() {
   return (
     <ParentScreen title={t.parents.title}>
       <Section>
-        <NavRow icon="people" label={t.parents.profiles} value={`${profile?.avatar ?? ''} ${profiles}`} onPress={() => router.push('/parents/profiles')} testID="parents-profiles" />
+        <NavRow
+          icon="people"
+          label={t.parents.profiles}
+          value={`${profile?.avatar ?? ''} ${profiles}`}
+          onPress={() => router.push('/parents/profiles')}
+          testID="parents-profiles"
+        />
         <NavRow icon="book" label={t.parents.reading} onPress={() => router.push('/parents/reading')} testID="parents-reading" />
-        <NavRow icon="cloud-download" label={t.parents.downloads} value={String(downloads)} onPress={() => router.push('/parents/downloads')} testID="parents-downloads" />
+        <NavRow
+          icon="cloud-download"
+          label={t.parents.downloads}
+          value={String(downloads)}
+          onPress={() => router.push('/parents/downloads')}
+          testID="parents-downloads"
+        />
         <NavRow
           icon="hourglass"
           label={t.parents.screenTime}

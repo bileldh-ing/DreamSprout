@@ -11,8 +11,7 @@ interface Body {
   voice?: string;
 }
 
-const json = (status: number, body: unknown) =>
-  new Response(JSON.stringify(body), { status, headers: { 'content-type': 'application/json' } });
+const json = (status: number, body: unknown) => new Response(JSON.stringify(body), { status, headers: { 'content-type': 'application/json' } });
 
 Deno.serve(async (req: Request) => {
   if (req.method !== 'POST') return json(405, { error: 'method_not_allowed' });
@@ -34,12 +33,7 @@ Deno.serve(async (req: Request) => {
   if (!body.storyId || !/^[a-z0-9-]+$/.test(body.storyId) || !Number.isInteger(body.pageIndex) || (body.pageIndex ?? 0) < 1) {
     return json(400, { error: 'storyId and positive integer pageIndex are required' });
   }
-  const { data: page, error } = await supabase
-    .from('story_pages')
-    .select('id, text')
-    .eq('story_id', body.storyId)
-    .eq('page_index', body.pageIndex!)
-    .single();
+  const { data: page, error } = await supabase.from('story_pages').select('id, text').eq('story_id', body.storyId).eq('page_index', body.pageIndex!).single();
   if (error || !page) return json(404, { error: 'page_not_found' });
 
   const voice = body.voice ?? 'en-US-AnaNeural';

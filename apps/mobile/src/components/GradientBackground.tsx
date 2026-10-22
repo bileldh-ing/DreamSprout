@@ -20,11 +20,7 @@ export function GradientBackground({ children, style, stars = true }: { children
       <LinearGradient colors={gradients.background} style={StyleSheet.absoluteFill} start={{ x: 0.2, y: 0 }} end={{ x: 0.8, y: 1 }} />
       {stars &&
         dots.map((d, i) => (
-          <View
-            key={i}
-            pointerEvents="none"
-            style={[styles.star, { left: d.left, top: d.top, width: d.size, height: d.size, opacity: d.opacity }]}
-          />
+          <View key={i} pointerEvents="none" style={[styles.star, { left: d.left, top: d.top, width: d.size, height: d.size, opacity: d.opacity }]} />
         ))}
       {children}
     </View>

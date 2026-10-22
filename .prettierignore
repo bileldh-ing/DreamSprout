@@ -1,0 +1,16 @@
+node_modules
+dist
+.next
+.expo
+coverage
+package-lock.json
+supabase/seed.sql
+packages/content/data/*.json
+apps/mobile/src/content/assets.generated.ts
+apps/studio/public
+apps/studio/.studio-data
+*.md
+*.yml
+*.yaml
+*.sql
+*.css

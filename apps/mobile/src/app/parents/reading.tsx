@@ -52,7 +52,13 @@ export default function ReadingSettings() {
       <Section title={t.parents.language}>
         <View style={styles.chips}>
           {(['system', 'en', 'fr'] as const).map((l) => (
-            <Chip key={l} label={l === 'system' ? 'Auto' : l === 'en' ? 'English' : 'Français'} selected={s.language === l} onPress={() => update({ language: l })} testID={`lang-${l}`} />
+            <Chip
+              key={l}
+              label={l === 'system' ? 'Auto' : l === 'en' ? 'English' : 'Français'}
+              selected={s.language === l}
+              onPress={() => update({ language: l })}
+              testID={`lang-${l}`}
+            />
           ))}
         </View>
         <Text style={styles.note}>{t.parents.languageNote}</Text>

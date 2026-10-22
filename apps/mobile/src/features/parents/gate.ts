@@ -48,12 +48,7 @@ export function isLocked(state: GateState, now: number): boolean {
 }
 
 /** Apply an answer. Three wrong answers lock the gate for 30 seconds. */
-export function submitAnswer(
-  state: GateState,
-  challenge: GateChallenge,
-  value: number,
-  now: number,
-): { state: GateState; passed: boolean } {
+export function submitAnswer(state: GateState, challenge: GateChallenge, value: number, now: number): { state: GateState; passed: boolean } {
   if (isLocked(state, now)) return { state, passed: false };
   if (value === challenge.answer) return { state: initialGateState(), passed: true };
   const failures = state.failures + 1;

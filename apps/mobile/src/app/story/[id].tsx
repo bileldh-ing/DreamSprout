@@ -33,7 +33,12 @@ export default function StoryDetails() {
       <Image source={coverFor(story)} style={[styles.hero, { height: heroH }]} contentFit="cover" accessibilityLabel={story.pages[0]!.sceneDescription} />
       <LinearGradient colors={['rgba(11,15,36,0.5)', 'rgba(11,15,36,0)']} style={[styles.topScrim]} />
       <SafeAreaView edges={['top']} style={styles.header}>
-        <IconButton icon="chevron-back" label={t.common.back} onPress={() => (router.canGoBack() ? router.back() : router.replace('/'))} testID="details-back" />
+        <IconButton
+          icon="chevron-back"
+          label={t.common.back}
+          onPress={() => (router.canGoBack() ? router.back() : router.replace('/'))}
+          testID="details-back"
+        />
         <Text style={styles.headerTitle}>{t.details.title}</Text>
         <IconButton
           icon={fav ? 'heart' : 'heart-outline'}

@@ -28,11 +28,7 @@ const Word = memo(function Word({
       testID={`word-${index}`}
       onPress={onPress ? () => onPress(index) : undefined}
       accessibilityRole={onPress ? 'button' : undefined}
-      style={[
-        state === 'active' && styles.active,
-        state === 'sentence' && styles.sentence,
-        state === 'spoken' && styles.spoken,
-      ]}
+      style={[state === 'active' && styles.active, state === 'sentence' && styles.sentence, state === 'spoken' && styles.spoken]}
     >
       {token.text}{' '}
     </Text>

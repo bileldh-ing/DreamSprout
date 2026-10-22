@@ -48,10 +48,7 @@ export default function TabsLayout() {
   };
 
   return (
-    <Tabs
-      tabBar={renderBar}
-      screenOptions={{ headerShown: false, sceneStyle: { backgroundColor: colors.bgBottom } }}
-    >
+    <Tabs tabBar={renderBar} screenOptions={{ headerShown: false, sceneStyle: { backgroundColor: colors.bgBottom } }}>
       <Tabs.Screen name="index" options={{ title: t.tabs.home }} />
       <Tabs.Screen name="library" options={{ title: t.tabs.library }} />
       <Tabs.Screen name="favorites" options={{ title: t.tabs.favorites }} />

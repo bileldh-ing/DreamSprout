@@ -40,7 +40,12 @@ export default function Goodnight() {
         <Text style={styles.body}>{t.goodnight.body}</Text>
         <View style={{ height: 56, width: '100%', marginTop: 36 }}>
           {locked ? (
-            <PillButton label={t.parents.open} icon="lock-closed" testID="goodnight-parents" onPress={() => router.push({ pathname: '/parent-gate', params: { next: '/parents/screen-time' } })} />
+            <PillButton
+              label={t.parents.open}
+              icon="lock-closed"
+              testID="goodnight-parents"
+              onPress={() => router.push({ pathname: '/parent-gate', params: { next: '/parents/screen-time' } })}
+            />
           ) : (
             <PillButton label={t.goodnight.back} icon="home" testID="goodnight-back" onPress={() => router.replace('/')} />
           )}

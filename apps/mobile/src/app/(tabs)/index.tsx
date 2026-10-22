@@ -16,7 +16,7 @@ import { coverFor } from '@/content';
 import { format, useStrings } from '@/i18n';
 import { useCatalog } from '@/lib/catalog';
 import { selectActiveProfile, selectProgressMap, useAppStore } from '@/store/app-store';
-import { colors, gradients, HIT, radii } from '@/theme/tokens';
+import { colors, gradients, radii } from '@/theme/tokens';
 
 export default function HomeScreen() {
   const t = useStrings();

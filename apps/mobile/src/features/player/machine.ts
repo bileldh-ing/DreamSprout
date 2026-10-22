@@ -4,17 +4,7 @@
  * never overlap (e.g. no double playback during a page transition).
  */
 export type PlayerPhase =
-  | 'loading'
-  | 'ready'
-  | 'playing'
-  | 'paused'
-  | 'seeking'
-  | 'page_transition'
-  | 'buffering'
-  | 'audio_ended'
-  | 'media_error'
-  | 'story_completed'
-  | 'disposed';
+  'loading' | 'ready' | 'playing' | 'paused' | 'seeking' | 'page_transition' | 'buffering' | 'audio_ended' | 'media_error' | 'story_completed' | 'disposed';
 
 export interface PlayerState {
   phase: PlayerPhase;
@@ -55,8 +45,7 @@ export function playerReducer(state: PlayerState, event: PlayerEvent): PlayerSta
       if (state.phase === 'story_completed' || state.phase === 'media_error') return state;
       return { ...state, phase: 'playing', autoplay: true };
     case 'PAUSE':
-      if (state.phase === 'playing' || state.phase === 'buffering' || state.phase === 'seeking')
-        return { ...state, phase: 'paused', autoplay: false };
+      if (state.phase === 'playing' || state.phase === 'buffering' || state.phase === 'seeking') return { ...state, phase: 'paused', autoplay: false };
       return { ...state, autoplay: false };
     case 'BUFFERING':
       return state.phase === 'playing' ? { ...state, phase: 'buffering' } : state;

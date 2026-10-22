@@ -24,7 +24,7 @@ const remoteRow = {
     {
       page_index: 1,
       text: 'The sleepy cat curled up.',
-      scene_description: 'cat',
+      scene_description: 'a sleepy cat by the fire',
       audio_duration_sec: 2.5,
       word_timings: [[0.1, 0.2, 'The'] as [number, number, string]],
     },

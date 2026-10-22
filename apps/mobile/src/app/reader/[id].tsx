@@ -272,8 +272,18 @@ function Reader({ story, startPage, preview }: { story: Story; startPage: number
               ))}
             </SettingRow>
             <SettingRow label="">
-              <Chip label={readMyself ? t.reader.readMyself : t.reader.narrated} selected={readMyself} onPress={() => updateSettings({ readMyself: !readMyself })} testID="toggle-read-myself" />
-              <Chip label={t.reader.autoTurn} selected={settings.autoTurn} onPress={() => updateSettings({ autoTurn: !settings.autoTurn })} testID="toggle-autoturn" />
+              <Chip
+                label={readMyself ? t.reader.readMyself : t.reader.narrated}
+                selected={readMyself}
+                onPress={() => updateSettings({ readMyself: !readMyself })}
+                testID="toggle-read-myself"
+              />
+              <Chip
+                label={t.reader.autoTurn}
+                selected={settings.autoTurn}
+                onPress={() => updateSettings({ autoTurn: !settings.autoTurn })}
+                testID="toggle-autoturn"
+              />
               <Chip label="🌙" selected={settings.bedtimeDim} onPress={() => updateSettings({ bedtimeDim: !settings.bedtimeDim })} testID="toggle-dim" />
             </SettingRow>
           </Glass>
@@ -309,7 +319,13 @@ function Reader({ story, startPage, preview }: { story: Story; startPage: number
             {!readMyself && (
               <IconButton icon="refresh" label="Replay sentence" onPress={() => seekTo(sentenceStart(tokens, timings, activeToken))} testID="reader-replay" />
             )}
-            <Pressable accessibilityRole="button" accessibilityLabel={status.playing ? t.reader.pause : t.reader.play} onPress={togglePlay} testID="reader-play" style={styles.playWrap}>
+            <Pressable
+              accessibilityRole="button"
+              accessibilityLabel={status.playing ? t.reader.pause : t.reader.play}
+              onPress={togglePlay}
+              testID="reader-play"
+              style={styles.playWrap}
+            >
               <LinearGradient colors={[colors.violet, colors.violetLight]} style={styles.play}>
                 <Ionicons name={status.playing ? 'pause' : 'play'} size={34} color="#fff" style={!status.playing ? { marginLeft: 4 } : undefined} />
               </LinearGradient>

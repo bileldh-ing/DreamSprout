@@ -46,7 +46,12 @@ export default function EndScreen() {
           <Text style={styles.moral}>“{story.moral}”</Text>
         </Animated.View>
         <View style={styles.row}>
-          <PillButton label={t.end.again} icon="refresh" testID="end-again" onPress={() => router.replace({ pathname: '/reader/[id]', params: { id: story.id } })} />
+          <PillButton
+            label={t.end.again}
+            icon="refresh"
+            testID="end-again"
+            onPress={() => router.replace({ pathname: '/reader/[id]', params: { id: story.id } })}
+          />
           <PrimaryButton label={t.end.home} icon="home" testID="end-home" onPress={() => router.replace('/')} />
         </View>
         {next && (
