@@ -15,8 +15,15 @@ updates:
       - dependency-name: 'react-native'
       - dependency-name: 'react'
       - dependency-name: 'react-dom'
+      # Native modules are pinned by the Expo SDK (bundledNativeModules); bump them with `npx expo install --fix`.
       - dependency-name: 'expo'
         update-types: ['version-update:semver-major']
+      - dependency-name: 'expo-*'
+        update-types: ['version-update:semver-major']
+      - dependency-name: 'react-native-*'
+      - dependency-name: '@react-native-async-storage/async-storage'
+      - dependency-name: '@react-native/*'
+      - dependency-name: 'test-renderer'
   - package-ecosystem: github-actions
     directory: /
     schedule:
