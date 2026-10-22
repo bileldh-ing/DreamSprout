@@ -1,0 +1,12 @@
+# The parental gate guards the parents area.
+appId: com.dreamsprout.stories
+---
+- launchApp
+- tapOn:
+    id: home-avatar
+- assertVisible:
+    id: gate-question
+- tapOn:
+    id: gate-cancel
+- assertVisible:
+    id: tonights-pick

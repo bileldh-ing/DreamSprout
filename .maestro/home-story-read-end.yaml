@@ -1,0 +1,30 @@
+# Onboarding → Home → Story details → Reader → The End → Home.
+# Run: maestro test .maestro/   (needs a dev/preview build on a simulator/emulator)
+appId: com.dreamsprout.stories
+---
+- launchApp:
+    clearState: true
+- runFlow: onboarding.yaml
+- assertVisible:
+    id: tonights-pick
+- scrollUntilVisible:
+    element:
+      id: story-card-lion-mouse
+- tapOn:
+    id: story-card-lion-mouse
+- assertVisible: 'The Lion and the Mouse'
+- tapOn:
+    id: details-read
+- assertVisible:
+    id: reader-play
+- tapOn:
+    id: reader-next
+- tapOn:
+    id: reader-next
+- tapOn:
+    id: reader-next
+- assertVisible: 'The End'
+- tapOn:
+    id: end-home
+- assertVisible:
+    id: tonights-pick

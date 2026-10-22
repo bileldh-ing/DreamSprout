@@ -1,0 +1,12 @@
+appId: com.dreamsprout.stories
+---
+- tapOn:
+    id: onboarding-start
+- tapOn:
+    id: onboarding-name
+- inputText: 'Mia'
+- hideKeyboard
+- tapOn:
+    id: onboarding-age-4-6
+- tapOn:
+    id: onboarding-finish

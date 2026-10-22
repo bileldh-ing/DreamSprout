@@ -1,0 +1,21 @@
+name: Story / content request
+description: Propose a story for the library
+labels: [content]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Story title
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source and licence (public domain, original, licensed)
+    validations:
+      required: true
+  - type: dropdown
+    id: age
+    attributes:
+      label: Age band
+      options: ['3-5', '4-6', '6-8']

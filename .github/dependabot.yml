@@ -1,0 +1,23 @@
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 5
+    groups:
+      expo:
+        patterns: ['expo', 'expo-*', '@expo/*', 'react-native-*', '@react-native/*', 'jest-expo']
+      tooling:
+        patterns: ['eslint*', '@eslint/*', 'typescript-eslint', 'prettier', 'vitest', '@vitest/*', '@types/*']
+    ignore:
+      # Expo SDK upgrades are done deliberately with `npx expo install --fix`.
+      - dependency-name: 'react-native'
+      - dependency-name: 'react'
+      - dependency-name: 'react-dom'
+      - dependency-name: 'expo'
+        update-types: ['version-update:semver-major']
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly

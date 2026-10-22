@@ -1,0 +1,67 @@
+name: EAS Submit
+
+# Manual store submission. Requires:
+#   secrets.EXPO_TOKEN                       – Expo access token
+#   secrets.GOOGLE_PLAY_SERVICE_ACCOUNT_JSON – Play Console service account (JSON) for the internal track
+#   secrets.EXPO_APPLE_APP_SPECIFIC_PASSWORD – or an App Store Connect API key configured in EAS credentials
+# and the placeholders in apps/mobile/eas.json (appleId, ascAppId, appleTeamId) filled in.
+on:
+  workflow_dispatch:
+    inputs:
+      platform:
+        type: choice
+        options: [android, ios, all]
+        default: android
+      build_id:
+        description: Optional EAS build ID (defaults to the latest production build)
+        required: false
+
+permissions:
+  contents: read
+
+jobs:
+  submit:
+    runs-on: ubuntu-latest
+    env:
+      EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
+    steps:
+      - name: Check secrets
+        id: token
+        run: |
+          if [ -z "$EXPO_TOKEN" ]; then
+            echo "::notice title=EAS submit skipped::Add EXPO_TOKEN (and store credentials) to enable submission. See docs/RELEASE.md."
+            echo "present=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "present=true" >> "$GITHUB_OUTPUT"
+          fi
+      - uses: actions/checkout@v5
+        if: steps.token.outputs.present == 'true'
+      - uses: actions/setup-node@v5
+        if: steps.token.outputs.present == 'true'
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - uses: expo/expo-github-action@v8
+        if: steps.token.outputs.present == 'true'
+        with:
+          eas-version: latest
+          token: ${{ secrets.EXPO_TOKEN }}
+      - run: npm ci
+        if: steps.token.outputs.present == 'true'
+      - name: Write Play service account
+        if: steps.token.outputs.present == 'true' && github.event.inputs.platform != 'ios'
+        working-directory: apps/mobile
+        env:
+          PLAY_JSON: ${{ secrets.GOOGLE_PLAY_SERVICE_ACCOUNT_JSON }}
+        run: |
+          mkdir -p secrets
+          if [ -n "$PLAY_JSON" ]; then echo "$PLAY_JSON" > secrets/google-play-service-account.json; else echo "::warning::GOOGLE_PLAY_SERVICE_ACCOUNT_JSON missing"; fi
+      - name: Submit (Play internal track / TestFlight)
+        if: steps.token.outputs.present == 'true'
+        working-directory: apps/mobile
+        env:
+          EXPO_APPLE_APP_SPECIFIC_PASSWORD: ${{ secrets.EXPO_APPLE_APP_SPECIFIC_PASSWORD }}
+        run: |
+          ARGS="--non-interactive --profile production --platform ${{ github.event.inputs.platform }}"
+          if [ -n "${{ github.event.inputs.build_id }}" ]; then ARGS="$ARGS --id ${{ github.event.inputs.build_id }}"; else ARGS="$ARGS --latest"; fi
+          eas submit $ARGS
